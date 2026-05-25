@@ -38,7 +38,7 @@ default:
     counter++
 }
 ```
-### Sistem Pertahanan API Otomatis (context.WithTimeout)
+### 3. Sistem Pertahanan API Otomatis (context.WithTimeout)
 `context.WithTimeout` berfungsi seperti alarm bom waktu otomatis. Fitur ini sangat krusial di industri backend untuk menangani operasi I/O Bound (seperti query database atau menembak API payment gateway pihak ketiga).
 
 ## ⚠️ Aturan Emas: Wajib Menggunakan defer cancel()
